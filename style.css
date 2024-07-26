@@ -198,6 +198,7 @@ color: #1E0E62;
     margin-left: -330px;
     width: 70px;
     margin-top: 170px;
+
 }
 .section-4 .sack h1 {
     margin-top: 100px;
@@ -244,19 +245,199 @@ color: #1E0E62;
     margin-top: 20px;
     line-height: 28px;
 }
-.jiggi {
-   display: flex; 
-}
-.jiggi-2 {
-    margin-top: 170px;
-    text-align: center;
-}
+
+
 .jiggi-1{
     /* margin-left: 150px; */
     width: 570px;
     margin-top: 43px;
     margin-bottom: 48px; 
 }
+.juck {
+    margin-top: 357px;
+    margin-left: -246px;
+}
+.juck img {
+    margin-top: 20px;
+}
+.juck p {
+    margin-left: 28px;
+    font-size: 11px;
+
+}
+
+
+
+
+form  {
+    width: 30%;
+    /* display: flex;
+   flex-direction: column; */
+   background-color: #FFFFFF;
+   padding: 58px 10px;
+   border-radius: 12px;
+}
+form input {
+    
+}
+.form-section {
+    text-align: center;
+    background-image: url(images/Background\ \(1\).png);
+    color: #1E0E62;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 187px;
+    
+}
+.form-section input {
+    width: 45%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border-style: none;
+    border: 2px solid #EBEAED ;
+    /* background-color: #FFFFFF; */
+}
+.creat-button {
+    padding: 9px 46px;
+    border-radius: 20px;
+    color: white;
+    background-color: aquamarine;
+    margin-top: 30px;
+    border: none;
+}
+.inn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 100px;
+    margin-top: 40px;
+}
+.sign-in {
+    border: none;
+    color:#25DAC5;
+    background-color: transparent;
+}
+.thepee {
+    margin-top: 1rem;
+}
+.mot {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.mott {
+    /* width: 5%; */
+    /* margin-bottom: 20px; */
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #25DAC5;
+    border-radius: 4px;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: 2px solid #1E0E62;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+/* --footer section ---- */
+
+.footer-footer {
+    background-color: #1E0E62;
+    padding: 50px 20px;
+    
+}
+.footer-sec {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-bottom: 1px solid #FFFFFF;
+}
+.below-foot {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+.sub-left {
+    display: flex;
+    gap: 2rem;
+
+}
+.subdivs {
+    display: flex;
+    gap: 2rem;
+}
+
+ 
 
 
 
@@ -275,7 +456,7 @@ color: #1E0E62;
         margin-right: 0;
     }
     nav ul {
-        display: flex;
+        display: block;
         gap: 2rem;
     }
     .btn-main{
@@ -301,7 +482,134 @@ color: #1E0E62;
     .learn-button {
         margin-top: 20px;
     }
+    /* .our-benefits {
+        display: block;
+        width: 10%;
     }
+    .our-benefits h1 {
+        width: 2%;
+    }
+    .div-1{
+     font-size: 12px;
+    }
+    .div-2 {
+     font-size: 12px;
+    }
+    .div-3 {
+    font-size: 12px;
+    } */
+     .main {
+        width: 100%;
+     }
+     .main h1 {
+        font-size: 34px;
+        width: 88%;
+        margin-left: 44px;
+     }
+     .main p {
+        font-size: 15px;
+        margin-left: 21px;
+     }
+     .section-4 {
+        display: block;
+        width: 100%;
+     }
+     .section-4 .sack h1 {
+        width: 89%;
+        margin-left: 10px;
+     }
+     .section-4 .sack p {
+        width: 88%;
+        margin-left: 7px;
+     }
+     .import {
+        margin-left: -52%;
+        margin-top: 50px;
+     }
+     .icon-1 {
+        margin-top: -57%;
+        margin-left: 143px;
+    }
+    .irene {
+        display: block;
+        width: 83%;
+    }
+    .div-22 {
+        font-size: 17px;
+        width: 93%;
+        margin-left: 34px;
+    }
+    .div-23 {
+        font-size: 17px;
+        width: 93%;
+        margin-left: 34px;
+    }
+    .div-24 {
+        font-size: 17px;
+        width: 93%;
+        margin-left: 34px;
+    }
+    form {
+        width: 69%;
+        padding: 18px 0px;
+        border-radius: 27px;
+        /* margin-left: -63px; */
+    }
+    .inn {
+        padding-left: 55px;
+    }
+    .footer-section {
+    display: block;
+    width: 100%;
+    }
+    .foot-1 {
+        width: 38%;
+        font-size: 16px;
+    }
+    .foot-2 {
+        width: 30%;
+        display: block;
+        padding-left: 4%;
+        margin-top: 46px;
+    }
+    .foot-2 p {
+        margin-left: 38px;
+        font-size: 20px;
+        
+    }
+    .foot-2 h6 {
+        font-size: 20px;
+        margin-left: 94px;
+    }
+    .coming {
+        margin-top: -81px;
+    }
+    .come-1 ul {
+      display: block;
+      margin-top: 77px;
+        width: 30%;
+    }
+    .up-3 {
+        display: block;
+    }
+    .three {
+        display: block;
+    }
+    .footer-sec {
+        display: block;
+    }
+    .below-foot {
+        display: block;
+        margin-top: 30px;
+    }
+    .sub-left {
+        display: block;
+    }
+    .subdivs {
+        display: block;
+        margin-top: 30px;
+    }
+}
     
 
 
